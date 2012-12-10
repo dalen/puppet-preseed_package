@@ -1,4 +1,4 @@
-puppet-preseed_package
-======================
+preseed_package Puppet module
+=============================
 
-preseed_package module for puppet
+Allows defining a package and preseed file using a single resource.
