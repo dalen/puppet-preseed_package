@@ -10,7 +10,7 @@
 # [*source*]/[*content*]
 #   The source or content for the preseed file
 #
-define preseed_package ( $ensure, $source=undef, $content=undef ) {
+define preseed_package::preseed_package ( $ensure, $source=undef, $content=undef ) {
   include preseed_package::setup
 
   file { "${::puppet_vardir}/preseed/${name}.preseed":
